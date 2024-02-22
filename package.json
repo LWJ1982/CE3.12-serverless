@@ -4,7 +4,6 @@
   "description": "Update 01 - update github with README.md Update 02 - install serverless terminal - npm install -g serverless check installation serverless -v",
   "main": "index.js",
   "scripts": {
-    // "test": "echo \"Error: no test specified\" && exit 1"
     "test": "jest"
   },
   "author": "",

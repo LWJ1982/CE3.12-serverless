@@ -3,8 +3,7 @@ module.exports.handler = async (event) => {
       statusCode: 200,
       body: JSON.stringify(
         {
-          message: "This is our HTTP Respond",
-          input: event,
+          message: "THIS IS OUR HTTP RESPONSE",
         },
         null,
         2

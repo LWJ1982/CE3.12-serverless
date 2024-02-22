@@ -38,3 +38,6 @@ New file
     - under scripts : 
     remove -> "test": "echo \"Error: no test specified\" && exit 1"
     replace -> "test": "jest"
+- update index.js
+   -under body:JSON below message
+    remove -> input: event
