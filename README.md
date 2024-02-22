@@ -41,3 +41,10 @@ New file
 - update index.js
    -under body:JSON below message
     remove -> input: event
+
+## update 06 -del 
+- sls remove
+
+## update 07 - update CICD github workflow
+New file
+- main.yml
