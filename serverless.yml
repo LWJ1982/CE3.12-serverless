@@ -1,18 +1,18 @@
-service: LimWJ-CE3.12-serverless
+service: lwj-sls-deploy
 frameworkVersion: '3'
 
-provider: 
+provider:
   name: aws
   runtime: nodejs18.x
   region: ap-southeast-1
 
-function:
+functions:
   api:
     handler: index.handler
-    event:
+    events:
       - httpApi:
           path: /
-          method: GET
-      
+          method: get
+
 plugins:
   - serverless-offline
