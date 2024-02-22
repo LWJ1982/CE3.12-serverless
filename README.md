@@ -1,8 +1,8 @@
 # CE3.12-serverless
 
-Update 01 - update github with README.md
+## Update 01 - update github with README.md
 
-Update 02 - install serverless
+## Update 02 - install serverless
 terminal 
 - nvm install lts 
 - npm install -g serverless
@@ -16,3 +16,7 @@ b. create json file (alternate)
 New files
 - index.js
 - serverless.yml
+
+## update 03 - update serverless.yml with configuration
+- npm install serverless
+- npm install serverless-offline --save-dev
