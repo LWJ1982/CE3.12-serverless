@@ -21,5 +21,20 @@ New files
 - npm install serverless
 - npm install serverless-offline --save-dev
 
-code to change port 
-sls offline start --httpPort 3003
+run serverless
+- sls offline start or - serverless offline
+### code to change port 
+- sls offline start --httpPort 3003
+
+## update 04 - deploy
+- serverless deploy or sls deploy
+
+## update 05 - add unit testing
+- npm install --save-dev jest
+- npm install --save-dev jest -g <for global>
+New file
+- index.test.js
+- update package.json 
+    - under scripts : 
+    remove -> "test": "echo \"Error: no test specified\" && exit 1"
+    replace -> "test": "jest"

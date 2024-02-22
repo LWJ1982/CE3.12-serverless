@@ -1,4 +1,4 @@
-service: lwj-sls-deploy
+service: limwj-sls-deploy
 frameworkVersion: '3'
 
 provider:
